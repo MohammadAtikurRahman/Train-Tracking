@@ -1,6 +1,6 @@
 const express = require("express");
 const axios = require("axios");
-const cors = require('cors');
+const cors = require("cors");
 
 const app = express();
 
@@ -38,6 +38,47 @@ const fetchRailwayStations = async () => {
 app.get("/data", async (req, res) => {
   const stations = await fetchRailwayStations();
   res.json(stations);
+});
+
+// Endpoint to get the nearest railway station name based on provided lat/lon
+app.get("/location", async (req, res) => {
+
+
+  const lat = 23.75921882093117;
+  const lon =  90.3838950221573;
+  console.log(`Received lat: ${lat}, lon: ${lon}`); // Debug log
+
+  if (isNaN(lat) || isNaN(lon)) {
+    return res.status(400).json({ error: "Valid latitude and longitude are required" });
+  }
+
+  const stations = await fetchRailwayStations();
+  console.log(`Fetched ${stations.length} stations`); // Debug log
+
+  const findNearestStation = (lat, lon) => {
+    let nearestStation = null;
+    let shortestDistance = Infinity;
+
+    stations.forEach(station => {
+      const distance = Math.sqrt(
+        Math.pow(lat - station[0], 2) + Math.pow(lon - station[1], 2)
+      );
+      if (distance < shortestDistance) {
+        shortestDistance = distance;
+        nearestStation = station;
+      }
+    });
+
+    return nearestStation;
+  };
+
+  const nearestStation = findNearestStation(lat, lon);
+  if (nearestStation) {
+    console.log(`Nearest station: ${nearestStation[2]}, Lat: ${nearestStation[0]}, Lon: ${nearestStation[1]}`); // Debug log
+    res.json({ name: nearestStation[2], lat: nearestStation[0], lon: nearestStation[1] });
+  } else {
+    res.status(404).json({ error: "No station found" });
+  }
 });
 
 // Start the server
