@@ -1,64 +1,106 @@
-// controllers/locationController.js
+// controllers/dataController.js
 const axios = require("axios");
-const { fetchRailwayStations } = require("./dataController");
+const geolib = require("geolib");
 
-// Function to fetch detailed location information using Nominatim API
-const fetchLocationDetails = async (lat, lon) => {
-  const nominatimUrl = `https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lon}&addressdetails=1`;
+const overpassApiUrl = "http://overpass-api.de/api/interpreter";
 
+const fetchRailwayStationsQuery = `
+[out:json];
+area["ISO3166-1"="BD"][admin_level=2];
+node["railway"="station"](area);
+out body;
+`;
+
+const fetchCitiesQuery = `
+[out:json];
+area["ISO3166-1"="BD"][admin_level=2];
+node["place"="city"](area);
+out body;
+`;
+
+const fetchThanasQuery = `
+[out:json];
+area["ISO3166-1"="BD"][admin_level=2];
+node["place"="town"](area);
+out body;
+`;
+
+const fetchVillagesQuery = `
+[out:json];
+area["ISO3166-1"="BD"][admin_level=2];
+node["place"="village"](area);
+out body;
+`;
+
+// Function to fetch data from Overpass API
+const fetchDataFromOverpass = async (query) => {
   try {
-    const response = await axios.get(nominatimUrl);
-    return response.data.address;
+    const response = await axios.post(overpassApiUrl, `data=${encodeURIComponent(query)}`);
+    return response.data.elements;
   } catch (error) {
-    console.error("Error fetching location details from Nominatim API:", error);
-    return null;
+    console.error("Error fetching data from Overpass API:", error);
+    return [];
   }
 };
 
-const getNearestStation = async (req, res) => {
-  const lat = 21.98892310807274;
-  const lon = 89.95861545449362;
-  console.log(`Received lat: ${lat}, lon: ${lon}`); // Debug log
+const fetchRailwayStations = async () => {
+  return await fetchDataFromOverpass(fetchRailwayStationsQuery);
+};
 
-  if (isNaN(lat) || isNaN(lon)) {
-    return res.status(400).json({ error: "Valid latitude and longitude are required" });
-  }
+const fetchCities = async () => {
+  return await fetchDataFromOverpass(fetchCitiesQuery);
+};
 
+const fetchThanas = async () => {
+  return await fetchDataFromOverpass(fetchThanasQuery);
+};
+
+const fetchVillages = async () => {
+  return await fetchDataFromOverpass(fetchVillagesQuery);
+};
+
+const getStationsWithDetails = async () => {
   const stations = await fetchRailwayStations();
-  console.log(`Fetched ${stations.length} stations`); // Debug log
+  const cities = await fetchCities();
+  const thanas = await fetchThanas();
+  const villages = await fetchVillages();
 
-  const findNearestStation = (lat, lon) => {
-    let nearestStation = null;
-    let shortestDistance = Infinity;
+  return stations.map((station) => {
+    const nearestCity = geolib.findNearest(
+      { latitude: station.lat, longitude: station.lon },
+      cities.map((city) => ({ latitude: city.lat, longitude: city.lon, name: city.tags.name }))
+    );
 
-    stations.forEach((station) => {
-      const distance = Math.sqrt(
-        Math.pow(lat - station[0], 2) + Math.pow(lon - station[1], 2)
-      );
-      if (distance < shortestDistance) {
-        shortestDistance = distance;
-        nearestStation = station;
-      }
-    });
+    const nearestThana = geolib.findNearest(
+      { latitude: station.lat, longitude: station.lon },
+      thanas.map((thana) => ({ latitude: thana.lat, longitude: thana.lon, name: thana.tags.name }))
+    );
 
-    return nearestStation;
-  };
+    const nearestVillage = geolib.findNearest(
+      { latitude: station.lat, longitude: station.lon },
+      villages.map((village) => ({ latitude: village.lat, longitude: village.lon, name: village.tags.name }))
+    );
 
-  const nearestStation = findNearestStation(lat, lon);
-  if (nearestStation) {
-    console.log(`Nearest station: ${nearestStation[2]}, Lat: ${nearestStation[0]}, Lon: ${nearestStation[1]}`); // Debug log
-    const locationDetails = await fetchLocationDetails(lat, lon);
-    res.json({
-      name: nearestStation[2],
-      lat: nearestStation[0],
-      lon: nearestStation[1],
-      location: locationDetails,
-    });
-  } else {
-    res.status(404).json({ error: "No station found" });
-  }
+    return {
+      Lat: station.lat,
+      Lon: station.lon,
+      Station: station.tags.name,
+      District: nearestCity ? nearestCity.name : null,
+      Thana: nearestThana ? nearestThana.name : null,
+      Village: nearestVillage ? nearestVillage.name : null
+    };
+  });
+};
+
+const getStations = async (req, res) => {
+  const stations = await getStationsWithDetails();
+  res.json(stations);
 };
 
 module.exports = {
-  getNearestStation,
+  getStations,
+  fetchRailwayStations,
+  fetchCities,
+  fetchThanas,
+  fetchVillages,
 };

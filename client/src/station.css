@@ -1,0 +1,87 @@
+.station-container {
+  display: flex;
+  height: 100%;
+  
+}
+
+.sidebar {
+  width: 380px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  overflow-y: auto;
+  height: 880px;
+
+
+  border-radius: 0.25rem; /* Rounded corners */
+  border-style: solid; /* Border style */
+  border-color: #9b9b9b; /* Border color */
+  border-width: .5px; /* Border thickness */
+}
+.map-border {
+
+
+  
+  border-radius: 0.25rem; /* Rounded corners */
+  border-style: solid; /* Border style */
+  border-color: #9b9b9b; /* Border color */
+  border-width: .5px; 
+
+}
+
+.train-info {
+  margin-bottom: 20px;
+}
+
+.train-info h2 {
+  margin: 0;
+}
+
+.train-info h3 {
+  margin: 5px 0;
+}
+
+.train-info p {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.train-info button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.train-info button:hover {
+  background-color: #0056b3;
+}
+
+.schedule {
+  margin-top: 20px;
+}
+
+.schedule-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.schedule-item.delayed {
+  color: red;
+}
+
+.map-container {
+  flex: 1;
+  height: 100%;
+  position: relative;
+}
+.custom-div-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

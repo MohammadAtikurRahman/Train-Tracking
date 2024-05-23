@@ -1,8 +1,11 @@
 // app.js
 const express = require("express");
 const cors = require("cors");
-const dataController = require("./controllers/dataController");
+const stationController = require("./controllers/stationController");
 const locationController = require("./controllers/locationController");
+const trainController = require("./controllers/trainController");
+const reverseController = require("./controllers/reverseController");
+
 
 const app = express();
 
@@ -11,8 +14,12 @@ app.use(cors()); // Enable CORS
 const port = 4100;
 
 // Routes
-app.get("/data", dataController.getStations);
-app.get("/location", locationController.getNearestStation);
+app.get("/station", stationController.getStations);
+app.get("/location", locationController.getStations);
+app.get("/train", trainController.getStaticTrainData);
+app.get("/sp-location", reverseController.getNearestLocationHandler);
+
+
 
 // Start the server
 app.listen(port, () => {
