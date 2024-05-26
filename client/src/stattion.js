@@ -6,7 +6,7 @@ import axios from "axios";
 import trainIconUrl from "./station.png"; // Import the train icon PNG
 import trainOnIconUrl from "./train-on.png"; // Import the train-on icon PNG
 import "./station.css"; // Import the CSS file for styling
-import logo from "./google-train.gif";
+import logo from "./logo.png";
 
 // Create custom icons
 const trainIcon = new L.Icon({
