@@ -34,7 +34,7 @@ const Station = () => {
       try {
         const response = await axios.get("http://localhost:4100/station");
 
-        console.log("train",response)
+        console.log("train", response);
         setTrainCoordinates(response.data);
       } catch (error) {
         console.error("Error fetching train coordinates:", error);
@@ -48,18 +48,35 @@ const Station = () => {
 
   return (
     <div className="station-container p-3">
-     
-      <div className="sidebar " style={{ marginRight: '20px' }}>
+      <div className="sidebar " style={{ marginRight: "20px" }}>
+        <img
+          src={logo}
+          alt="Sidebar Description"
+          className="p-3 center-image "
+          style={{ width: "100%" }}
+        />
 
-      <img src={logo} alt="Sidebar Description" className="p-3 center-image" style={{ width: '100%'  }} />
-
-        <button className="btn btn-primary w-100 ">
-
-        <i class="fa-solid fa-train mx-1"></i>
-        Live Train Tracking
+        <button className="btn btn-primary w-100 btn-default mb-3">
+          <i class="fa-solid fa-train mx-1"></i>
+          Live Train Tracking
         </button>
+
+        <div class="input-group mb-3  ">
+          <input
+            type="text"
+            className="form-control btn-default-input rounded mx-1 "
+            placeholder="Train Name"
+            aria-label="Recipient's username"
+            aria-describedby="basic-addon2"
+          ></input>
+          <div class="input-group-append">
+            <button class="btn btn-outline-primary btn-default " type="button">
+              Find
+            </button>
+          </div>
+        </div>
       </div>
-         
+
       <div className="map-container map-border">
         <MapContainer
           center={mapCenter}

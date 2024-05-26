@@ -6,7 +6,7 @@
 
 .sidebar {
   width: 380px;
-  background-color: #F7F7F9;
+  background-color: #ffffff;
   padding: 20px;
   overflow-y: auto;
   height: 880px;
@@ -89,4 +89,13 @@
   display: block;
   margin: 0 auto;
   
+}
+
+.btn-default {
+  box-shadow: 1px 2px 5px #000000;   
+ 
+}
+.btn-default-input {
+  box-shadow: 1px 1px 5px #000000;   
+ 
 }
