@@ -1,40 +1,169 @@
+// import React, { useEffect, useState } from "react";
+// import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+// import L from "leaflet";
+// import "leaflet/dist/leaflet.css";
+// import axios from "axios";
+// import trainIconUrl from "./station.png"; // Import the train icon PNG
+// import trainOnIconUrl from "./train-on.png"; // Import the train-on icon PNG
+// import "./station.css"; // Import the CSS file for styling
+// import logo from "./logo.png";
+
+// // Create custom icons
+// const trainIcon = new L.Icon({
+//   iconUrl: trainIconUrl,
+//   iconSize: [40, 40], // size of the icon
+//   iconAnchor: [12, 25], // point of the icon which will correspond to marker's location
+//   popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor
+// });
+
+// const trainOnIcon = new L.Icon({
+//   iconUrl: trainOnIconUrl,
+//   iconSize: [30, 30], // size of the icon
+//   iconAnchor: [12, 25], // point of the icon which will correspond to marker's location
+//   popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor
+// });
+
+// const Station = () => {
+//   const [trainCoordinates, setTrainCoordinates] = useState([]);
+
+//   const mapCenter = [23.762273273678503, 90.38347198808196];
+
+//   useEffect(() => {
+//     // Fetch coordinates from the API
+//     const fetchCoordinates = async () => {
+//       try {
+//         const response = await axios.get("http://localhost:4100/station");
+
+//         console.log("train", response);
+//         setTrainCoordinates(response.data);
+//       } catch (error) {
+//         console.error("Error fetching train coordinates:", error);
+//       }
+//     };
+
+//     fetchCoordinates();
+//   }, []); // Empty dependency array means this effect runs once after the initial render
+
+//   const trainOnCoordinate = [23.780844737084603, 90.37937224155554];
+
+//   return (
+//     <div className="station-container p-3">
+//       <div className="sidebar " style={{ marginRight: "20px" }}>
+//         <img
+//           src={logo}
+//           alt="Sidebar Description"
+//           className="p-3 center-image "
+//           style={{ width: "100%" }}
+//         />
+
+//         <button className="btn btn-primary w-100 btn-default mb-3">
+//           <i class="fa-solid fa-train mx-1"></i>
+//           Live Train Tracking
+//         </button>
+
+//         <div class="input-group mb-3  ">
+//           <input
+//             type="text"
+//             className="form-control btn-default-input rounded mx-1 "
+//             placeholder="Train Name"
+//             aria-label="Recipient's username"
+//             aria-describedby="basic-addon2"
+//           ></input>
+//           <div class="input-group-append">
+//             <button class="btn btn-outline-primary btn-default " type="button">
+//               Find
+//             </button>
+//           </div>
+//         </div>
+//       </div>
+
+//       <div className="map-container map-border">
+//         <MapContainer
+//           center={mapCenter}
+//           zoom={13}
+//           style={{ height: "880px", width: "100%" }}
+//         >
+//           <TileLayer
+//             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+//             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+//           />
+//           <TileLayer
+//             url="https://{s}.tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png"
+//             attribution='Data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, Style: <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA 2.0</a> <a href="http://www.openrailwaymap.org/">OpenRailwayMap</a>'
+//             minZoom={2}
+//             maxZoom={19}
+//             tileSize={256}
+//           />
+//           {trainCoordinates.map((coords, index) => (
+//             <Marker
+//               key={index}
+//               position={[coords[0], coords[1]]}
+//               icon={trainIcon}
+//             >
+//               <Popup>
+//                 <div>
+//                   <strong>{coords[2]}</strong>
+//                   <br />
+//                   Latitude: {coords[0]}
+//                   <br />
+//                   Longitude: {coords[1]}
+//                 </div>
+//               </Popup>
+//             </Marker>
+//           ))}
+//           <Marker position={trainOnCoordinate} icon={trainOnIcon}>
+//             <Popup>
+//               <div>
+//                 <strong>Train On</strong>
+//                 <br />
+//                 Latitude: {trainOnCoordinate[0]}
+//                 <br />
+//                 Longitude: {trainOnCoordinate[1]}
+//               </div>
+//             </Popup>
+//           </Marker>
+//         </MapContainer>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Station;
+
 import React, { useEffect, useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import axios from "axios";
-import trainIconUrl from "./station.png"; // Import the train icon PNG
-import trainOnIconUrl from "./train-on.png"; // Import the train-on icon PNG
-import "./station.css"; // Import the CSS file for styling
+import trainIconUrl from "./station.png";
+import trainOnIconUrl from "./train-on.png";
+import "./station.css";
 import logo from "./logo.png";
-
-// Create custom icons
+import VerticalTimeline from "./timeline";
 const trainIcon = new L.Icon({
   iconUrl: trainIconUrl,
-  iconSize: [40, 40], // size of the icon
-  iconAnchor: [12, 25], // point of the icon which will correspond to marker's location
-  popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor
+  iconSize: [40, 40],
+  iconAnchor: [12, 25],
+  popupAnchor: [0, -25],
 });
 
 const trainOnIcon = new L.Icon({
   iconUrl: trainOnIconUrl,
-  iconSize: [30, 30], // size of the icon
-  iconAnchor: [12, 25], // point of the icon which will correspond to marker's location
-  popupAnchor: [0, -25], // point from which the popup should open relative to the iconAnchor
+  iconSize: [30, 30],
+  iconAnchor: [12, 25],
+  popupAnchor: [0, -25],
 });
 
 const Station = () => {
   const [trainCoordinates, setTrainCoordinates] = useState([]);
+  const [routes, setRoutes] = useState([]);
 
   const mapCenter = [23.762273273678503, 90.38347198808196];
 
   useEffect(() => {
-    // Fetch coordinates from the API
     const fetchCoordinates = async () => {
       try {
         const response = await axios.get("http://localhost:4100/station");
-
-        console.log("train", response);
         setTrainCoordinates(response.data);
       } catch (error) {
         console.error("Error fetching train coordinates:", error);
@@ -42,41 +171,117 @@ const Station = () => {
     };
 
     fetchCoordinates();
-  }, []); // Empty dependency array means this effect runs once after the initial render
+  }, []);
+
+  useEffect(() => {
+    const trainData = {
+      data: {
+        days: ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
+        routes: [
+          { city: "Chattogram", departure_time: "03:00 pm BST" },
+          {
+            city: "Feni",
+            arrival_time: "04:20 pm BST",
+            departure_time: "04:22 pm BST",
+            halt: "02",
+            duration: "01:20",
+          },
+          {
+            city: "Gunabati",
+            arrival_time: "04:36 pm BST",
+            departure_time: "04:38 pm BST",
+            halt: "02",
+            duration: "00:14",
+          },
+          {
+            city: "Laksam",
+            arrival_time: "05:04 pm BST",
+            departure_time: "05:06 pm BST",
+            halt: "02",
+            duration: "00:26",
+          },
+          {
+            city: "Cumilla",
+            arrival_time: "05:27 pm BST",
+            departure_time: "05:29 pm BST",
+            halt: "02",
+            duration: "00:21",
+          },
+          {
+            city: "Akhaura",
+            arrival_time: "06:20 pm BST",
+            departure_time: "06:23 pm BST",
+            halt: "03",
+            duration: "00:51",
+          },
+          {
+            city: "Brahmanbaria",
+            arrival_time: "06:41 pm BST",
+            departure_time: "06:45 pm BST",
+            halt: "04",
+            duration: "00:18",
+          },
+          {
+            city: "Bhairab_Bazar",
+            arrival_time: "07:04 pm BST",
+            departure_time: "07:07 pm BST",
+            halt: "03",
+            duration: "00:19",
+          },
+          { city: "Dhaka", arrival_time: "08:55 pm BST", duration: "01:48" },
+        ],
+        total_duration: "05:55",
+        train_name: "MAHANAGAR GODHULI (703)",
+      },
+      extra: { hash: "F58103F5D9107D0D1D58DA046A0F3BFB" },
+    };
+
+    setRoutes(trainData.data.routes);
+  }, []);
 
   const trainOnCoordinate = [23.780844737084603, 90.37937224155554];
 
   return (
     <div className="station-container p-3">
-      <div className="sidebar " style={{ marginRight: "20px" }}>
+      <div className="sidebar" style={{ marginRight: "20px" }}>
         <img
           src={logo}
           alt="Sidebar Description"
-          className="p-3 center-image "
+          className="p-3 center-image"
           style={{ width: "100%" }}
         />
-
         <button className="btn btn-primary w-100 btn-default mb-3">
-          <i class="fa-solid fa-train mx-1"></i>
+          <i className="fa-solid fa-train mx-1"></i>
           Live Train Tracking
         </button>
 
-        <div class="input-group mb-3  ">
+        <button className="btn btn-danger w-100 btn-default mb-3">
+          <i className="fa-solid fa-location mx-1"></i>
+          Share Your Location
+        </button>
+
+        <div className="input-group mb-3">
           <input
             type="text"
-            className="form-control btn-default-input rounded mx-1 "
+            className="form-control btn-default-input rounded mx-1"
             placeholder="Train Name"
             aria-label="Recipient's username"
             aria-describedby="basic-addon2"
-          ></input>
-          <div class="input-group-append">
-            <button class="btn btn-outline-primary btn-default " type="button">
+          />
+          <div className="input-group-append">
+            <button
+              className="btn btn-outline-primary btn-default"
+              type="button"
+            >
               Find
             </button>
           </div>
         </div>
-      </div>
+        <br></br>
+        {/* <hr></hr> */}
 
+        <VerticalTimeline routes={routes} />
+      </div>
       <div className="map-container map-border">
         <MapContainer
           center={mapCenter}
