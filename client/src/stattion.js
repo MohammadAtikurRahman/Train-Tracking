@@ -6,6 +6,7 @@ import axios from "axios";
 import trainIconUrl from "./station.png"; // Import the train icon PNG
 import trainOnIconUrl from "./train-on.png"; // Import the train-on icon PNG
 import "./station.css"; // Import the CSS file for styling
+import logo from "./google-train.gif";
 
 // Create custom icons
 const trainIcon = new L.Icon({
@@ -49,7 +50,12 @@ const Station = () => {
     <div className="station-container p-3">
      
       <div className="sidebar " style={{ marginRight: '20px' }}>
-        <button className="btn btn-outline-primary w-100">
+
+      <img src={logo} alt="Sidebar Description" className="p-3 center-image" style={{ width: '100%'  }} />
+
+        <button className="btn btn-primary w-100 ">
+
+        <i class="fa-solid fa-train mx-1"></i>
         Live Train Tracking
         </button>
       </div>
