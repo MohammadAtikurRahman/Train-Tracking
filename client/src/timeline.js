@@ -14,14 +14,13 @@ const Timeline = ({ routes }) => {
                 //backgroundColor: "#FFC300",
                 padding: "10px",
                 borderRadius: "10px",
-                width: "190px"
-                
+                width: "190px",
               }}
             >
               {item.city}
             </div>
 
-            <div className="item-detail" style={{ height: "120px"}}>
+            <div className="item-detail" style={{ height: "120px" }}>
               {item.arrival_time && <p>Arrival: {item.arrival_time}</p>}
               {item.departure_time && <p>Departure: {item.departure_time}</p>}
               {item.halt && <p>Halt: {item.halt} min</p>}
