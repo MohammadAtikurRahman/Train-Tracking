@@ -64,7 +64,7 @@ ul.tl li .timestamp {
 .circle {
   position: absolute;
   left: -18px;
-  top: 50%;
+  top: 6%;
   transform: translateY(-50%);
   background-color: yellow;
   border: 10px solid #2732AE;
