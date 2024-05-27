@@ -7,7 +7,7 @@ const Timeline = ({ routes }) => {
   let circleTop = ((currentStopIndex + 1) / routes.length) * 50;
   // max =(route.length - 1) * 100
   // let circleTop = currentStopIndex ;
-  circleTop = circleTop + 750;
+  circleTop = circleTop + 50;
   // setCurrentStopIndex(currentStopIndex + 20)
 
   // console.log(circleTop);
@@ -44,6 +44,8 @@ const Timeline = ({ routes }) => {
                 width: "190px",
               }}
             >
+                        <i className="fa-solid fa-location mx-1"></i>
+
               {item.city}
             </div>
 
