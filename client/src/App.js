@@ -9,7 +9,6 @@ function App() {
 
   return (
     <div className="App p-1">
-      {/* <Map/> */}
      <Station/>
     </div>
   );

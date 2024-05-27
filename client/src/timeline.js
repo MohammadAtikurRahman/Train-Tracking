@@ -2,17 +2,16 @@ import React, { useEffect, useState } from "react";
 import "./CSS/timeline.css"; // Ensure you import the CSS for other styling
 
 const Timeline = ({ routes }) => {
-  const [currentStopIndex,setCurrentStopIndex] = useState(0);
-  
+  const [currentStopIndex, setCurrentStopIndex] = useState(0);
 
   let circleTop = ((currentStopIndex + 1) / routes.length) * 50;
   // max =(route.length - 1) * 100
   // let circleTop = currentStopIndex ;
-  circleTop = circleTop + 750
+  circleTop = circleTop + 750;
   // setCurrentStopIndex(currentStopIndex + 20)
 
   // console.log(circleTop);
-  
+
   const circleStyle = {
     position: "absolute",
     left: "-18px",
@@ -27,7 +26,6 @@ const Timeline = ({ routes }) => {
   };
 
   console.log(routes.length);
-
 
   return (
     <div className="history-tl-container">
