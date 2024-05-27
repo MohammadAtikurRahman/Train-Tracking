@@ -8,7 +8,7 @@ const Timeline = ({ routes }) => {
   let circleTop = ((currentStopIndex + 1) / routes.length) * 50;
   // max =(route.length - 1) * 100
   // let circleTop = currentStopIndex ;
-  circleTop = circleTop + 800
+  circleTop = circleTop + 750
   // setCurrentStopIndex(currentStopIndex + 20)
 
   // console.log(circleTop);
