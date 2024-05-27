@@ -437,6 +437,8 @@ const Station = () => {
   const [filteredTrains, setFilteredTrains] = useState([]);
   const [selectedTrainName, setSelectedTrainName] = useState("");
 
+  const [selectDuration,setSelectDuration]=useState("");
+
   const mapCenter = [23.762273273678503, 90.38347198808196];
 
   useEffect(() => {
@@ -485,6 +487,8 @@ const Station = () => {
     if (train) {
       setRoutes(train.data.routes);
       setSelectedTrainName(train.data.train_name); // Set the selected train name
+
+
     } else {
       setRoutes([]); // Clear routes if no match found
       setSelectedTrainName(""); // Clear the selected train name
@@ -544,6 +548,8 @@ const Station = () => {
               >
                 {train.data.train_name}
               </li>
+
+
             ))}
           </ul>
         )}
