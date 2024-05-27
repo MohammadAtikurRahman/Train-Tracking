@@ -1,0 +1,50 @@
+.history-tl-container {
+    position: relative;
+  }
+  
+  .tl {
+    list-style-type: none;
+    position: relative;
+    padding-left: 40px;
+    margin: 0;
+  }
+  
+  .tl::before {
+    content: '';
+    position: absolute;
+    left: 50px;
+    width: 2px;
+    background: #000;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .tl-item {
+    position: relative;
+    margin: 40px 0;
+  }
+  
+  .item-title {
+    position: absolute;
+    left: 50px;
+  }
+  
+  .item-detail {
+    margin-left: 100px;
+  }
+  
+  .circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 3px solid blue;
+    border-radius: 50%;
+    left: -10px;
+    transform: translateY(-50%);
+  }
+  
+  .circle-active {
+    background-color: blue;
+  }
+  

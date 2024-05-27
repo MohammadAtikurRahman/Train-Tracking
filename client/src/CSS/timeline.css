@@ -3,6 +3,7 @@
   margin: auto;
   display: block;
   position: relative;
+  
 }
 .history-tl-container ul.tl {
   margin: 20px 0;
@@ -40,6 +41,8 @@
 ul.tl li .item-detail {
   color: rgba(0, 0, 0, 0.5);
   font-size: 12px;
+  padding-left: 15px;
+
 }
 ul.tl li .timestamp {
   color: #8d8d8d;
@@ -48,4 +51,8 @@ ul.tl li .timestamp {
   left: -50%;
   text-align: right;
   font-size: 12px;
+}
+.shadow {
+  box-shadow: 1px 2px 5px #000000;   
+ 
 }
