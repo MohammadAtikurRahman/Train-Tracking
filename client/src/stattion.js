@@ -252,7 +252,6 @@
 
 // // export default Station;
 
-
 import React, { useEffect, useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
@@ -366,43 +365,45 @@ const Station = () => {
           {routes.map((route, index) => {
             if (route.lat && route.lan) {
               return (
-                <Marker
-                  key={index}
-                  position={[route.lat, route.lan]}
-                  icon={stationIcon}
-                >
-                  <Popup>
-                    <div>
-                      <strong>{route.city}</strong>
-                      <br />
-                      Latitude: {route.lat}
-                      <br />
-                      Longitude: {route.lan}
-                      <br />
-                      {route.arrival_time && (
-                        <div>Arrival Time: {route.arrival_time}</div>
-                      )}
-                      {route.departure_time && (
-                        <div>Departure Time: {route.departure_time}</div>
-                      )}
-                    </div>
-                  </Popup>
-                </Marker>
+                <div>
+                  <Marker
+                    key={index}
+                    position={[route.lat, route.lan]}
+                    icon={stationIcon}
+                  >
+                    <Popup>
+                      <div>
+                        <strong>{route.city} </strong>
+                        <br />
+                        Latitude: {route.lat}
+                        <br />
+                        Longitude: {route.lan}
+                        <br />
+                        {route.arrival_time && (
+                          <div>Arrival Time: {route.arrival_time}</div>
+                        )}
+                        {route.departure_time && (
+                          <div>Departure Time: {route.departure_time}</div>
+                        )}
+                      </div>
+                    </Popup>
+                  </Marker>
+                  <Marker position={trainOnCoordinate} icon={trainIcon}>
+                    <Popup>
+                      <div>
+                        <strong>{selectedTrainName}</strong>
+                        <br />
+                        Latitude: {trainOnCoordinate[0]}
+                        <br />
+                        Longitude: {trainOnCoordinate[1]}
+                      </div>
+                    </Popup>
+                  </Marker>
+                </div>
               );
             }
             return null;
           })}
-          <Marker position={trainOnCoordinate} icon={trainIcon}>
-            <Popup>
-              <div>
-                <strong>{selectedTrainName}</strong>
-                <br />
-                Latitude: {trainOnCoordinate[0]}
-                <br />
-                Longitude: {trainOnCoordinate[1]}
-              </div>
-            </Popup>
-          </Marker>
         </>
       );
     }
