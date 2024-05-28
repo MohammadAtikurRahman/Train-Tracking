@@ -1,15 +1,7 @@
 [
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Chattogram",
@@ -84,14 +76,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -215,14 +200,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed"],
       "routes": [
         {
           "city": "Sylhet",
@@ -345,14 +323,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -471,14 +442,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Chattogram",
@@ -504,14 +468,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -593,14 +550,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Thu"],
       "routes": [
         {
           "city": "Noakhali",
@@ -716,14 +666,7 @@
   },
   {
     "data": {
-      "days": [
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Rajshahi",
@@ -847,14 +790,7 @@
   },
   {
     "data": {
-      "days": [
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Khulna",
@@ -983,14 +919,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Thu"],
       "routes": [
         {
           "city": "Burimari",
@@ -1127,14 +1056,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Thu"],
       "routes": [
         {
           "city": "Santahar",
@@ -1271,15 +1193,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -1459,14 +1373,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -1499,14 +1406,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -1602,14 +1502,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Wed", "Thu"],
       "routes": [
         {
           "city": "Sylhet",
@@ -1704,15 +1597,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "B Sirajul Islam",
@@ -1871,15 +1756,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -1961,14 +1838,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dewanganj_Bazar",
@@ -2042,14 +1912,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed"],
       "routes": [
         {
           "city": "Khulna",
@@ -2229,14 +2092,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -2360,14 +2216,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Thu"],
       "routes": [
         {
           "city": "Chattogram",
@@ -2456,14 +2305,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Thu"],
       "routes": [
         {
           "city": "Sylhet",
@@ -2587,14 +2429,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Wed", "Thu"],
       "routes": [
         {
           "city": "Khulna",
@@ -2711,15 +2546,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Chattogram",
@@ -2787,14 +2614,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Rajshahi",
@@ -2911,14 +2731,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -3027,14 +2840,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Chattogram",
@@ -3137,14 +2943,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Thu"],
       "routes": [
         {
           "city": "Rajshahi",
@@ -3281,15 +3080,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dewanganj_Bazar",
@@ -3370,14 +3161,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Thu"],
       "routes": [
         {
           "city": "Chilahati",
@@ -3507,14 +3291,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -3610,15 +3387,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Chandpur",
@@ -3707,14 +3476,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Sylhet",
@@ -3810,14 +3572,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Chattogram",
@@ -3947,14 +3702,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed"],
       "routes": [
         {
           "city": "Chilahati",
@@ -4134,15 +3882,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -4228,15 +3968,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -4324,15 +4056,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -4421,14 +4145,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Sylhet",
@@ -4515,15 +4232,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Tarakandi",
@@ -4594,14 +4303,7 @@
   },
   {
     "data": {
-      "days": [
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -4753,15 +4455,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -4836,14 +4530,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -4925,14 +4612,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Chilahati",
@@ -5054,15 +4734,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -5135,14 +4807,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Chilahati",
@@ -5315,14 +4980,7 @@
   },
   {
     "data": {
-      "days": [
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Lalmonirhat",
@@ -5467,15 +5125,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Chattogram",
@@ -5563,14 +5213,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Wed", "Thu"],
       "routes": [
         {
           "city": "Chapai Nawabganj",
@@ -5719,14 +5362,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -5836,14 +5472,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Rajshahi",
@@ -5994,15 +5623,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "B Sirajul Islam",
@@ -6171,15 +5792,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Kishorganj",
@@ -6267,14 +5880,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Sirajganj_Bazar",
@@ -6363,14 +5969,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Thu"],
       "routes": [
         {
           "city": "Kishorganj",
@@ -6451,15 +6050,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -6541,14 +6132,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Wed", "Thu"],
       "routes": [
         {
           "city": "Rajshahi",
@@ -6644,14 +6228,7 @@
   },
   {
     "data": {
-      "days": [
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -6733,14 +6310,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Khulna",
@@ -6913,14 +6483,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -7022,14 +6585,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Rajshahi",
@@ -7132,14 +6688,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Rangpur",
@@ -7249,14 +6798,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Khulna",
@@ -7386,14 +6928,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed"],
       "routes": [
         {
           "city": "Mohanganj",
@@ -7481,14 +7016,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed"],
       "routes": [
         {
           "city": "Rajshahi",
@@ -7646,14 +7174,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -7798,15 +7319,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Tarakandi",
@@ -7897,14 +7410,7 @@
   },
   {
     "data": {
-      "days": [
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Mohanganj",
@@ -7979,15 +7485,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Santahar",
@@ -8156,15 +7654,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -8344,14 +7834,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed"],
       "routes": [
         {
           "city": "Dhaka",
@@ -8509,14 +7992,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Kishorganj",
@@ -8603,14 +8079,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Lalmonirhat",
@@ -8708,8 +8177,8 @@
   },
   {
     "data": {
-      "days": [ ],
-      "routes": [ ],
+      "days": [],
+      "routes": [],
       "total_duration": "00:00",
       "train_name": ""
     },
@@ -8719,14 +8188,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Wed", "Thu"],
       "routes": [
         {
           "city": "Cox's Bazar",
@@ -8759,14 +8221,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Wed", "Thu"],
       "routes": [
         {
           "city": "Jamalpur_Town",
@@ -8874,14 +8329,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -9004,14 +8452,7 @@
   },
   {
     "data": {
-      "days": [
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -9051,14 +8492,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -9098,14 +8532,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Bhuapur",
@@ -9165,14 +8592,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Chilahati",
@@ -9275,14 +8695,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -9322,8 +8735,8 @@
   },
   {
     "data": {
-      "days": [ ],
-      "routes": [ ],
+      "days": [],
+      "routes": [],
       "total_duration": "00:00",
       "train_name": ""
     },
@@ -9333,14 +8746,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Thu"],
       "routes": [
         {
           "city": "Benapole",
@@ -9449,14 +8855,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -9537,14 +8936,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Chilahati",
@@ -9668,14 +9060,7 @@
   },
   {
     "data": {
-      "days": [
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -9757,14 +9142,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -9846,14 +9224,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -9963,14 +9334,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -10101,15 +9465,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "B Sirajul Islam",
@@ -10184,14 +9540,7 @@
   },
   {
     "data": {
-      "days": [
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Chapai Nawabganj",
@@ -10224,14 +9573,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -10340,14 +9682,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Rajshahi",
@@ -10478,14 +9813,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Thu"],
       "routes": [
         {
           "city": "Kurigram",
@@ -10567,14 +9895,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -10686,14 +10007,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -10803,15 +10117,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "B Sirajul Islam",
@@ -10991,14 +10297,7 @@
   },
   {
     "data": {
-      "days": [
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Chattogram",
@@ -11122,14 +10421,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Thu"],
       "routes": [
         {
           "city": "Rajshahi",
@@ -11210,14 +10502,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Wed"],
       "routes": [
         {
           "city": "Dhaka",
@@ -11327,17 +10612,12 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Wed", "Thu"],
       "routes": [
         {
           "city": "Chattogram",
+          "lat": 22.3340209,
+          "lan": 91.8295576,
           "departure_time": "04:45 pm BST",
           "halt": null,
           "duration": null,
@@ -11345,6 +10625,8 @@
         },
         {
           "city": "Dhaka",
+          "lat": 23.7319508,
+          "lan": 90.4262749,
           "arrival_time": "09:40 pm BST",
           "halt": null,
           "duration": "04:55",
@@ -11360,14 +10642,7 @@
   },
   {
     "data": {
-      "days": [
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Rajshahi",
@@ -11526,14 +10801,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -11621,14 +10889,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Wed", "Thu"],
       "routes": [
         {
           "city": "Gobra",
@@ -11773,8 +11034,8 @@
   },
   {
     "data": {
-      "days": [ ],
-      "routes": [ ],
+      "days": [],
+      "routes": [],
       "total_duration": "00:00",
       "train_name": ""
     },
@@ -11784,14 +11045,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Wed", "Thu"],
       "routes": [
         {
           "city": "Chattogram",
@@ -11899,14 +11153,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -11939,14 +11186,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Khulna",
@@ -12105,14 +11345,7 @@
   },
   {
     "data": {
-      "days": [
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Sylhet",
@@ -12207,8 +11440,8 @@
   },
   {
     "data": {
-      "days": [ ],
-      "routes": [ ],
+      "days": [],
+      "routes": [],
       "total_duration": "00:00",
       "train_name": ""
     },
@@ -12218,14 +11451,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Tue", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -12314,8 +11540,8 @@
   },
   {
     "data": {
-      "days": [ ],
-      "routes": [ ],
+      "days": [],
+      "routes": [],
       "total_duration": "00:00",
       "train_name": ""
     },
@@ -12325,8 +11551,8 @@
   },
   {
     "data": {
-      "days": [ ],
-      "routes": [ ],
+      "days": [],
+      "routes": [],
       "total_duration": "00:00",
       "train_name": ""
     },
@@ -12336,8 +11562,8 @@
   },
   {
     "data": {
-      "days": [ ],
-      "routes": [ ],
+      "days": [],
+      "routes": [],
       "total_duration": "00:00",
       "train_name": ""
     },
@@ -12347,14 +11573,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Sun",
-        "Mon",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Sun", "Mon", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhalarchar",
@@ -12515,8 +11734,8 @@
   },
   {
     "data": {
-      "days": [ ],
-      "routes": [ ],
+      "days": [],
+      "routes": [],
       "total_duration": "00:00",
       "train_name": ""
     },
@@ -12526,14 +11745,7 @@
   },
   {
     "data": {
-      "days": [
-        "Sat",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Sat", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Dhaka",
@@ -12657,14 +11869,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sat",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sat", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "Cox's Bazar",
@@ -12697,14 +11902,7 @@
   },
   {
     "data": {
-      "days": [
-        "Fri",
-        "Sun",
-        "Mon",
-        "Tue",
-        "Wed",
-        "Thu"
-      ],
+      "days": ["Fri", "Sun", "Mon", "Tue", "Wed", "Thu"],
       "routes": [
         {
           "city": "B Sirajul Islam",
